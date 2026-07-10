@@ -36,13 +36,11 @@ print("=" * 60)
 print("LOADING PAIRWISE MODEL")
 print("=" * 60)
 
-model = joblib.load("../models/pairwise_model.pkl")
+model = joblib.load("models/pairwise_model.pkl")
 
-scaler = joblib.load("../models/pairwise_scaler.pkl")
+scaler = joblib.load("models/pairwise_scaler.pkl")
 
-df = pd.read_csv("../data/pairwise_dataset.csv")
-
-feature_names = df.drop(columns=["BetterSystem"]).columns.tolist()
+feature_names = joblib.load("models/pairwise_feature_names.pkl")
 
 print("Pairwise Model Loaded Successfully!")
 # ==========================================================
