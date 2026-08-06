@@ -816,40 +816,6 @@ if mode == "🏠 AI Stability Prediction":
 
             st.divider()
 
-            st.markdown("""
-    ---
-
-    ### 🤖 AI-Assisted Transfer Function Stability Analyzer
-
-    Developed using
-
-    ✔ Machine Learning
-
-    ✔ Feature Engineering
-
-    ✔ Classical Control Theory
-
-    ✔ Pole Analysis
-
-    ✔ Streamlit
-
-    ---
-
-    ### 📊 Model Summary
-
-    **Best Model:** MLP Classifier
-
-    **Training Accuracy:** 99.53%
-
-    **Cross Validation:** 99.39%
-
-    **Dataset Size:** 30,000 Transfer Functions
-
-    **Engineered Features:** 56
-
-    **AI–Pole Agreement:** 95.30%
-
-    """)
 elif mode == "⚖️ AI Relative Stability Comparator":
     # ==========================================================
     # RELATIVE STABILITY COMPARATOR
