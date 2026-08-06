@@ -324,8 +324,6 @@ if mode == "🏠 AI Stability Prediction":
             # AI Explanation
             # --------------------------------------------------
 
-            st.subheader("🤖 AI Explanation")
-
             show_ai_explanation(
 
                 prediction,
@@ -339,8 +337,6 @@ if mode == "🏠 AI Stability Prediction":
             # --------------------------------------------------
             # Confidence Meter
             # --------------------------------------------------
-
-            st.subheader("🎯 Prediction Confidence")
 
             show_confidence_meter(
 
